@@ -1,0 +1,49 @@
+body
+{
+  background:#f20707;
+  font-family: 'Encode Sans', sans-serif;
+}
+/* navigation bar */
+#scanfcode
+{
+  border-radius:0px;
+  background:rgb(117, 22, 22);
+  padding:10px;
+  font-size:17px;
+}
+/* logo or main heading */
+#logo
+{
+  font-size:20px;
+  font-weight:bolder;
+  color:#b80505;
+  letter-spacing:2px;
+}
+/* navigation links*/
+#link a
+{
+  color:#e70000;
+  margin:0 20px 0 10px;
+  letter-spacing:1.5px;
+}
+/* navigation link with right border */
+#first-link
+{
+  padding-right:6px;
+  border-right:solid 1px rgb(243, 10, 10);
+}
+/* sign up link button and toggle button */
+#button-link ,#toogle-button
+{
+  color:#c41818;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(0,0,0,.2);
+  border-radius: 2px;
+  background-color: #fa6a48;
+  line-height: 17px;
+}
+#button-link a
+{
+  color:#cf0d0d;
+}
