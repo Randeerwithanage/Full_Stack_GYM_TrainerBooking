@@ -1,6 +1,6 @@
 body
 {
-  background:#f20707;
+  background:#f20707 !important;
   font-family: 'Encode Sans', sans-serif;
 }
 /* navigation bar */
@@ -16,7 +16,7 @@ body
 {
   font-size:20px;
   font-weight:bolder;
-  color:#b80505;
+  color:#b80505 !important;
   letter-spacing:2px;
 }
 /* navigation links*/
