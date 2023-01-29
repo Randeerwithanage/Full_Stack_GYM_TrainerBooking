@@ -9,8 +9,8 @@ import { TimeslotComponent } from './timeslot/timeslot.component';
 const routes: Routes = [
  { path: '', redirectTo: 'home', pathMatch: 'full' },
  { path: 'home', component: HomeComponent },
- { path: 'trainers', component: TrainersComponent },
- { path: 'trainers/timeslot', component: TimeslotComponent },
+ { path: 'home/trainers', component: TrainersComponent },
+ { path: 'home/trainers/timeslot', component: TimeslotComponent },
  { path: 'login', component: UserSigninFormComponent }]; 
  
  
