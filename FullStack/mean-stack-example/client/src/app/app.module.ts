@@ -6,18 +6,22 @@ import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ReactiveFormsModule } from '@angular/forms';
 import { UserSigninFormComponent } from './user-signin-form/user-signin-form.component';
-import { NavbarComponent } from './navbar/navbar.component';
 import { HeroComponent } from './hero/hero.component';
 import { HomeComponent } from './home/home.component';
+import { NavBarComponent } from './nav-bar/nav-bar.component';
+import { TrainersComponent } from './trainers/trainers.component';
+import { TimeslotComponent } from './timeslot/timeslot.component';
 
  
 @NgModule({
  declarations: [
    AppComponent,
    UserSigninFormComponent,
-   NavbarComponent,
    HeroComponent,
-   HomeComponent
+   HomeComponent,
+   NavBarComponent,
+   TrainersComponent,
+   TimeslotComponent
  ],
  imports: [
    BrowserModule,

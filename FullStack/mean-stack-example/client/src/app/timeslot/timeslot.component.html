@@ -1,0 +1,28 @@
+<!-- header -->
+<app-nav-bar></app-nav-bar>>
+<!-- end -->
+<section class="services" id="services">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h1 class="heading">Time Slot</h1>
+
+    <div class="box-container">
+
+        <div class="box text-center"  (click)="clickOnSeat(row.number)"  [id]="row.number" *ngFor="let row of block_A">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h1>{{row.slot}}</h1>
+        </div>
+
+
+    </div>
+
+</section>

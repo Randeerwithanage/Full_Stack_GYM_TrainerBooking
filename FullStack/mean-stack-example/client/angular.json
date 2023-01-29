@@ -54,7 +54,7 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": ["C:/Users/Aravinthan/Desktop/FullStack/Full_Stack_GYM_TrainerBooking/FullStack/mean-stack-example/client/src/assets/script.js"]
           },
           "configurations": {
             "production": {
