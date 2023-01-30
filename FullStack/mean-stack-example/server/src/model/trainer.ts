@@ -9,5 +9,7 @@ export interface Trainer {
     rating:number;
     _id?: mongodb.ObjectId;
     gender:string;
+    timeslots:string
     url:string;
+
 }
