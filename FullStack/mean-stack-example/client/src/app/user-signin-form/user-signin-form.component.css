@@ -6,16 +6,16 @@ body{
 	align-items: center;
 	min-height: 100vh;
 	font-family: 'Jost', sans-serif;
-	background: url("https://images.pexels.com/photos/1954524/pexels-photo-1954524.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") no-repeat center/ cover;
+	background: url("https://images.pexels.com/photos/1552242/pexels-photo-1552242.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") no-repeat center/ cover;
 }
 .main{
 	width: 350px;
 	height: 500px;
 	background: red;
 	overflow: hidden;
-	background: linear-gradient(to bottom, #180c29, #302b63, #24243e);
+	background: linear-gradient(to bottom, #250000, #a00404, #ec8004);
 	border-radius: 10px;
-	box-shadow: 5px 20px 50px #000;
+	box-shadow: 5px 20px 50px rgb(48, 9, 9);
 }
 #chk{
 	display: none;
@@ -26,7 +26,7 @@ body{
 	height: 100%;
 }
 label{
-	color: #fff;
+	color: rgb(255, 255, 255);
 	font-size: 2.3em;
 	justify-content: center;
 	display: flex;
@@ -38,7 +38,7 @@ label{
 input{
 	width: 60%;
 	height: 20px;
-	background: #e0dede;
+	background: #c4b3b3;
 	justify-content: center;
 	display: flex;
 	margin: 20px auto;
@@ -53,8 +53,8 @@ button{
 	margin: 10px auto;
 	justify-content: center;
 	display: block;
-	color: #fff;
-	background: #573b8a;
+	color: rgb(255, 255, 255);
+	background: #8c0303;
 	font-size: 1em;
 	font-weight: bold;
 	margin-top: 20px;
@@ -65,11 +65,11 @@ button{
 	cursor: pointer;
 }
 button:hover{
-	background: #6d44b8;
+	background: #440202;
 }
 .login{
 	height: 460px;
-	background: #eee;
+	background: rgb(219, 157, 23);
 	border-radius: 60% / 10%;
 	transform: translateY(-180px);
 	transition: .8s ease-in-out;
